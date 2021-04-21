@@ -1,0 +1,42 @@
+.NewToDoForm {
+  margin-top: 3rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.NewToDoForm label {
+  min-width: 100%;
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.NewToDoForm input {
+  flex-grow: 1;
+  border: none;
+  background: #f7f1f1;
+  padding: 0 1.5em;
+  font-size: initial;
+}
+
+.NewToDoForm button {
+  padding: 0 1.3rem;
+  border: none;
+  background: #490b6d;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  margin-left: 5px;
+  cursor: pointer;
+  transition: background 0.2s ease-out;
+}
+
+.NewToDoForm button:hover {
+  background: #8b16cf;
+}
+
+.NewToDoForm input,
+.NewToDoForm button {
+  font-family: "Quicksand", sans-serif;
+  height: 2rem;
+}
